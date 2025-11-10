@@ -1,7 +1,10 @@
+import GlobalStyles from "styles/GlobalStyles";
+
 // Импорты лекций
 // import Lesson06 from "./lessons/Lesson06/Lesson06";
 // import Lesson07 from "lessons/Lesson07/Lesson07";
-import Lesson08 from "lessons/Lesson08/Lesson08";
+// import Lesson08 from "lessons/Lesson08/Lesson08";
+import Lesson09 from "lessons/Lesson09/Lesson09";
 
 // Импорты домашних работ
 // import Homework07 from "homeworks/Homework07/Homework07";
@@ -9,6 +12,7 @@ import Lesson08 from "lessons/Lesson08/Lesson08";
 function App() {
   return (
     <>
+      <GlobalStyles />
       {/* Лекция 6 - TypeScript */}
       {/* <Lesson06 /> */}
 
@@ -17,7 +21,10 @@ function App() {
       {/* <Homework07/> */}
 
       {/* Лекция 8 - Styling components */}
-      <Lesson08 />
+      {/* <Lesson08 /> */}
+
+      {/* Лекция 9 - Styling components, control components */}
+      <Lesson09 />
     </>
   );
 }
