@@ -10,6 +10,7 @@ function Input({
   value,
   onChange,
 }: InputProps) {
+
   return (
     <InputContainer>
       {label && <Label htmlFor={id}>{label}</Label>}
