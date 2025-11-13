@@ -6,11 +6,12 @@ import GlobalStyles from "styles/GlobalStyles";
 // import Lesson08 from "lessons/Lesson08/Lesson08";
 // import Lesson09 from "lessons/Lesson09/Lesson09";
 // import Lesson10 from "lessons/Lesson10/Lesson10";
+import Lesson12 from "lessons/Lesson12/Lesson12";
 
 // Импорты домашних работ
 // import Homework07 from "homeworks/Homework07/Homework07";
 // import Homework09 from "homeworks/Homework09/Homework09";
-import Homework10 from "homeworks/Homework10/Homework10";
+// import Homework10 from "homeworks/Homework10/Homework10";
 
 function App() {
   return (
@@ -32,7 +33,10 @@ function App() {
 
       {/* Лекция 10 - useEffect */}
       {/* <Lesson10 /> */}
-      <Homework10 />
+      {/* <Homework10 /> */}
+
+      {/* Лекция 12 - Formik */}
+      <Lesson12 />
     </>
   );
 }
