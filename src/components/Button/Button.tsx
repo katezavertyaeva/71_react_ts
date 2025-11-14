@@ -17,7 +17,6 @@ function Button({
 }: ButtonProps) {
   return (
     <ButtonComponent
-      className="button"
       disabled={disabled}
       type={type}
       onClick={onClick}
