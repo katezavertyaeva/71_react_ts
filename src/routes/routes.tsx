@@ -8,6 +8,7 @@ import Amazon from "pages/Clients/components/Amazon/Amazon";
 import Facebook from "pages/Clients/components/Facebook/Facebook";
 import Google from "pages/Clients/components/Google/Google";
 import Lesson14 from "lessons/Lesson14/Lesson14";
+import Homework14 from "homeworks/Homework14/Homework14";
 
 export const routesData: RoutePage[] = [
   { path: "/", element: <Home /> },
@@ -19,5 +20,6 @@ export const routesData: RoutePage[] = [
   { path: "/clients/facebook", element: <Facebook /> },
   { path: "/clients/google", element: <Google /> },
   { path: "/lesson14", element: <Lesson14 /> },
+  { path: "/homework14", element: <Homework14 /> },
   { path: "*", element: "Page not found" },
 ];
